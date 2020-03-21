@@ -1,0 +1,46 @@
+API
+{
+    id str
+    provider_name str
+    phone str (XXX) XXX-XXX
+    email str
+    owner_name str
+}
+
+
+Scrape Target
+{
+    provider_name 
+    type of care 
+    address
+    city
+    state
+    zip
+    phone  (XXX) XXX-XXX
+    email 
+}
+
+csv
+{
+    provider_name 
+    type of care 
+    address
+    city
+    state
+    zip
+    phone XXXXXXXXX
+    email 
+}
+
+Our Schema
+{
+    provider_name 
+    phone  (XXX) XXX-XXX
+    email
+
+    ? type of care 
+    ? address
+    ? city
+    ? state
+    ? zip
+}
