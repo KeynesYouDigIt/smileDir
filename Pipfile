@@ -11,6 +11,11 @@ ipython = "*"
 sqlalchemy = "*"
 psycopg2-binary = "*"
 scrapy = "*"
+requests = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+ingest = "./jobs/full_ingest.sh"

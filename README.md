@@ -16,12 +16,14 @@ You can then run `╰─$ pipenv run python data_ingest.py`
 - env security? - 15 min
 - set up and test dedoop - 1 hour
 - setup and test scrape ingest- 5 hours
-
-#### todo
 - setup and test csv ingest - 30 min
 - setup and test API ingest - 30 min
 
+#### todo
+
 - SQL scripts - 1 hour
-- document!!
+- document!! - 1 hour
 - tests/more tests if possible
+- multi-state support (not just California!)
+- see commented TODOs
 
