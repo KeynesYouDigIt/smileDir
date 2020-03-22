@@ -9,15 +9,15 @@ You can then run `╰─$ pipenv run python data_ingest.py`
 
 ### todos
 
-#### done
-- Compare ds Columns - 30 min
-- define initial schema - 30 min
-- setup database container with test seed script
-- env security?
+#### done (with time taken)
+- Compare ds Columns - 15 min
+- define initial schema - 15 min
+- setup database container with test seed script - 1 hour
+- env security? - 15 min
+- set up and test dedoop - 1 hour
+- setup and test scrape ingest- 5 hours
 
 #### todo
-- set up and test dedoop - 1 hours
-- setup and test scrape ingest- 30 min
 - setup and test csv ingest - 30 min
 - setup and test API ingest - 30 min
 

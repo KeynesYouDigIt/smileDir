@@ -4,12 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+ipdb = "*"
+ipython = "*"
 
 [packages]
 sqlalchemy = "*"
 psycopg2-binary = "*"
-ipdb = "*"
+scrapy = "*"
 
 [requires]
 python_version = "3.7"
-
