@@ -10,10 +10,10 @@ You can then run `╰─$ pipenv run python data_ingest.py`
 ### todos
 
 #### done
-v Compare ds Columns - 30 min
-v define initial schema - 30 min
-v setup database container with test seed script
-v env security?
+- Compare ds Columns - 30 min
+- define initial schema - 30 min
+- setup database container with test seed script
+- env security?
 
 #### todo
 - set up and test dedoop - 1 hours
