@@ -1,7 +1,3 @@
-CREATE DATABASE providers;
-
-\c providers
-
 CREATE TABLE provider_contact (
     -- With more time, would like to add a UUID
     provider_name CHAR(200) NOT NULL,
