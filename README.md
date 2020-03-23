@@ -4,8 +4,12 @@ This is a light service that can consume multiple data sources and make a unifor
 ## Current Setup
 You should install [docker-compose](https://docs.docker.com/compose/install/), clone the repo and run `$ docker-compose up --build`
 
+set up the venv and install dependencies with `$ pipenv install`
+
 To ingest data, run 
 ```$ pipenv run python API_ingest.py && pipenv run python csv_ingest.py && pipenv run python web_scrape_ingest.py```
+
+To run reports (total centers, centers in each zipcode) run `$ pipenv run python reports.py`
 
 
 ### todos
