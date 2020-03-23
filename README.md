@@ -2,9 +2,10 @@
 This is a light service that can consume multiple data sources and make a uniform data set.
 
 ## Current Setup
-You should install [docker-compose](https://docs.docker.com/compose/install/), clone the repo and run `╰─$ docker-compose up --build`
+You should install [docker-compose](https://docs.docker.com/compose/install/), clone the repo and run `$ docker-compose up --build`
 
-You can then run `╰─$ pipenv run python data_ingest.py`
+To ingest data, run 
+```$ pipenv run python API_ingest.py && pipenv run python csv_ingest.py && pipenv run python web_scrape_ingest.py```
 
 
 ### todos
@@ -18,12 +19,14 @@ You can then run `╰─$ pipenv run python data_ingest.py`
 - setup and test scrape ingest- 5 hours
 - setup and test csv ingest - 30 min
 - setup and test API ingest - 30 min
-
-#### todo
-
 - SQL scripts - 1 hour
 - document!! - 1 hour
-- tests/more tests if possible
-- multi-state support (not just California!)
-- see commented TODOs
 
+#### todo
+- needs way more tests
+- multi-state support (not just California!)
+- examine errors in logs and fix (looks like off by one errors persist in web scraper)
+- Theres extremely large amounts of duplication according to our dedup method (phone number)
+This is a data smell for sure, work with stakeholders to come up with a better uniqueness system
+- see commented TODOs
+- data ingestion should be a script or single command
